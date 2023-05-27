@@ -4,11 +4,11 @@ export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0;
+  padding: ${props => `${props.theme.spacing(5)} 0`};
 `;
 
 export const Title = styled.h1`
-  font-size: 42px;
+  font-size: ${props => props.theme.spacing(11)};
   text-align: center;
-  color: #483d8b;
+  color: ${props => props.theme.colors.title};
 `;

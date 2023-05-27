@@ -6,8 +6,9 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin: 60px auto;
-  width: 700px;
-  background-color: #5f9ea0;
+  width: ${props => props.theme.spacing(175)};
+  border-radius: ${props => props.theme.spacing(2)};
+  background-color: ${props => props.theme.colors.second};
   -webkit-box-shadow: -6px 5px 74px 6px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: -6px 5px 74px 6px rgba(0, 0, 0, 0.57);
   box-shadow: -6px 5px 74px 6px rgba(0, 0, 0, 0.57);
