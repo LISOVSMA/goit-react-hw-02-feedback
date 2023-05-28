@@ -15,7 +15,7 @@ export const Statistics = ({
       <Item>Bad: {bad}</Item>
       <Item
         style={{
-          color: '#5f9ea0',
+          color: '#5F9EA0',
           fontWeight: 700,
         }}
       >
@@ -23,7 +23,7 @@ export const Statistics = ({
       </Item>
       <Item
         style={{
-          color: '#5f9ea0',
+          color: '#5F9EA0',
           fontWeight: 700,
         }}
       >
